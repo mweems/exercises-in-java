@@ -6,10 +6,11 @@ import static org.testng.Assert.assertEquals;
 
 public class VectorTest {
 
+        Vector vector = new Vector();
+        ArrayList<Double> coord = new ArrayList<Double>();
+
         @Test
         public void shouldReturnAnArrayListOfGivenCoordinates() {
-           Vector vector = new Vector();
-           ArrayList<Double> coord  = new ArrayList<Double>();
            coord.add(1.0);
            coord.add(2.0);
            assertEquals(vector.coordinates(1, 2), coord);
@@ -17,26 +18,20 @@ public class VectorTest {
 
         @Test
         public void shouldAddTheMatchingCoordinatesAndReturnAnArrayList() {
-            Vector vector = new Vector();
-            ArrayList<Double> coord = new ArrayList<Double>();
             coord.add(3.0);
             coord.add(5.0);
-            assertEquals(vector.addCoordinates(1,2,2,3), coord);
+            assertEquals(vector.computeCoordinates(1, 2, 2, 3, "add"), coord);
         }
 
         @Test
         public void shouldSubtractTheMatchingCoordinatesAndReturnAnArrayList() {
-            Vector vector = new Vector();
-            ArrayList<Double> coord = new ArrayList<Double>();
             coord.add(-1.0);
             coord.add(-1.0);
-            assertEquals(vector.subtractCoordinates(1,2,2,3), coord);
+            assertEquals(vector.computeCoordinates(1, 2, 2, 3, "subtract"), coord);
         }
 
         @Test
         public void shouldReturnTheDotProductWhenGivenTwoArrayListsOfEqualSize() {
-            Vector vector = new Vector();
-            ArrayList<Double> coord = new ArrayList<Double>();
             ArrayList<Integer> xCoord = new ArrayList<Integer>();
             ArrayList<Integer> yCoord = new ArrayList<Integer>();
             xCoord.add(1);
@@ -51,8 +46,6 @@ public class VectorTest {
 
         @Test
         public void shouldReturnTheLengthOfTheVectorWhenGivenTheLengthOfTwoSides() {
-            Vector vector = new Vector();
-            ArrayList<Double> coord = new ArrayList<Double>();
             coord.add(13.0);
             assertEquals(vector.vectorLength(2,3), coord);
         }

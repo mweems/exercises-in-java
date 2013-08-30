@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="" />
+    <list default="true" id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vector.java" afterPath="$PROJECT_DIR$/src/Vector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VectorTest.java" afterPath="$PROJECT_DIR$/src/VectorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$USER_HOME$/IdeaProjects/continued_learning/.idea/workspace.xml" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377866726072" ignored="false" />
     <file path="/2dVector" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377866970287" ignored="false" />
     <file path="/fragment.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377867125364" ignored="false" />
-    <file path="/VectorTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377870966372" ignored="false" />
-    <file path="/Vector.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377871129349" ignored="false" />
+    <file path="/VectorTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377872568391" ignored="false" />
+    <file path="/Vector.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377873494474" ignored="false" />
+    <file path="/Dummy.txt" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377871374604" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +78,12 @@
       <file leaf-file-name="Vector.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="34" selection-start="1702" selection-end="1702" vertical-scroll-proportion="1.4705882">
+            <state line="32" column="58" selection-start="984" selection-end="984" vertical-scroll-proportion="0.029411765">
               <folding>
                 <element signature="e#204#212#0" expanded="true" />
-                <element signature="e#468#476#0" expanded="true" />
-                <element signature="e#802#810#0" expanded="true" />
-                <element signature="e#1139#1147#0" expanded="true" />
-                <element signature="e#1540#1548#0" expanded="true" />
+                <element signature="e#489#497#0" expanded="true" />
+                <element signature="e#973#981#0" expanded="true" />
+                <element signature="e#1374#1382#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,16 +92,12 @@
       <file leaf-file-name="VectorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="56" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.0">
+            <state line="48" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#299#307#0" expanded="true" />
-                <element signature="e#617#625#0" expanded="true" />
-                <element signature="e#949#957#0" expanded="true" />
-                <element signature="e#1290#1298#0" expanded="true" />
-                <element signature="e#1355#1364#0" expanded="true" />
-                <element signature="e#1421#1430#0" expanded="true" />
-                <element signature="e#1896#1904#0" expanded="true" />
+                <element signature="e#212#220#0" expanded="true" />
+                <element signature="e#1062#1071#0" expanded="true" />
+                <element signature="e#1128#1137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,6 +109,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -122,7 +131,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -189,15 +198,19 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -332,6 +345,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="" />
@@ -352,7 +382,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -433,29 +463,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/VectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="56" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.0">
+        <state line="48" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#299#307#0" expanded="true" />
-            <element signature="e#617#625#0" expanded="true" />
-            <element signature="e#949#957#0" expanded="true" />
-            <element signature="e#1290#1298#0" expanded="true" />
-            <element signature="e#1355#1364#0" expanded="true" />
-            <element signature="e#1421#1430#0" expanded="true" />
-            <element signature="e#1896#1904#0" expanded="true" />
+            <element signature="e#212#220#0" expanded="true" />
+            <element signature="e#1062#1071#0" expanded="true" />
+            <element signature="e#1128#1137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="34" selection-start="1702" selection-end="1702" vertical-scroll-proportion="1.4705882">
+        <state line="32" column="58" selection-start="984" selection-end="984" vertical-scroll-proportion="0.029411765">
           <folding>
             <element signature="e#204#212#0" expanded="true" />
-            <element signature="e#468#476#0" expanded="true" />
-            <element signature="e#802#810#0" expanded="true" />
-            <element signature="e#1139#1147#0" expanded="true" />
-            <element signature="e#1540#1548#0" expanded="true" />
+            <element signature="e#489#497#0" expanded="true" />
+            <element signature="e#973#981#0" expanded="true" />
+            <element signature="e#1374#1382#0" expanded="true" />
           </folding>
         </state>
       </provider>

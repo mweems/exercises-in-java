@@ -15,22 +15,16 @@ public class Vector {
 
     }
 
-    public ArrayList<Double> addCoordinates(int x1, int y1, int x2, int y2) {
+    public ArrayList<Double> computeCoordinates(int x1, int y1, int x2, int y2, String function) {
         ArrayList<Double> coord = new ArrayList<Double>();
-        int xTot = (x1 + x2);
-        int yTot = (y1 + y2);
-        coord.add((double) xTot);
-        coord.add((double) yTot);
-        System.out.println(coord);
-        return coord;
-    }
-
-    public ArrayList<Double> subtractCoordinates(int x1, int y1, int x2, int y2) {
-        ArrayList<Double> coord = new ArrayList<Double>();
-        int xTot = (x1 - x2);
-        int yTot = (y1 - y2);
-        coord.add((double) xTot);
-        coord.add((double) yTot);
+        int[] computed;
+        if (function == "add") {
+            computed = addCoordinates(x1,y1,x2,y2);
+        } else {
+            computed = subtractCoordinates(x1,y1,x2,y2);
+        }
+        coord.add((double) computed[0]);
+        coord.add((double) computed[1]);
         System.out.println(coord);
         return coord;
     }
@@ -50,10 +44,23 @@ public class Vector {
         ArrayList<Double> coord = new ArrayList<Double>();
         int xTot = x * x;
         int yTot = y * y;
-        int Tot = xTot + yTot;
-        coord.add((double) Tot);
+        int total = xTot + yTot;
+        coord.add((double) total);
         System.out.println(coord);
         return coord;
     }
 
+    private int [] addCoordinates(int x1, int y1, int x2, int y2) {
+        int[] added = new int[2];
+        added[0] = x1 + x2;
+        added[1] = y1 + y2;
+        return added;
+    }
+
+    private int [] subtractCoordinates(int x1, int y1, int x2, int y2) {
+        int[] subtracted = new int[2];
+        subtracted[0] = x1 - x2;
+        subtracted[1] = y1 - y2;
+        return subtracted;
+    }
 }
