@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Vector.java" afterPath="$PROJECT_DIR$/src/Vector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VectorTest.java" afterPath="$PROJECT_DIR$/src/VectorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArrayTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$USER_HOME$/IdeaProjects/continued_learning/.idea/workspace.xml" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377866726072" ignored="false" />
     <file path="/2dVector" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377866970287" ignored="false" />
-    <file path="/fragment.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377867125364" ignored="false" />
+    <file path="/fragment.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377873710081" ignored="false" />
     <file path="/VectorTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377872568391" ignored="false" />
     <file path="/Vector.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377873494474" ignored="false" />
     <file path="/Dummy.txt" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377871374604" ignored="false" />
+    <file path="/ArrayTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377876017769" ignored="false" />
+    <file path="/Array.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377878479156" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +76,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Vector.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Vector.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="58" selection-start="984" selection-end="984" vertical-scroll-proportion="0.029411765">
+            <state line="32" column="58" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#204#212#0" expanded="true" />
                 <element signature="e#489#497#0" expanded="true" />
@@ -92,13 +93,32 @@
       <file leaf-file-name="VectorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
+            <state line="6" column="53" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#212#220#0" expanded="true" />
                 <element signature="e#1062#1071#0" expanded="true" />
                 <element signature="e#1128#1137#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="26" selection-start="1553" selection-end="1553" vertical-scroll-proportion="1.2352941">
+              <folding>
+                <element signature="e#492#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArrayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,8 +142,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/2dVector/2dVector" />
-        <option value="$PROJECT_DIR$/src/VectorTest.java" />
         <option value="$PROJECT_DIR$/src/Vector.java" />
+        <option value="$PROJECT_DIR$/src/VectorTest.java" />
+        <option value="$PROJECT_DIR$/src/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/Array.java" />
       </list>
     </option>
   </component>
@@ -220,7 +242,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VectorTest">
+  <component name="RunManager" selected="TestNG.ArrayTest">
     <configuration default="false" name="VectorTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -240,6 +262,41 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="exercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54219" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -331,12 +388,14 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.VectorTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ArrayTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.VectorTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ArrayTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VectorTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -378,7 +437,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -461,11 +520,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="58" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#204#212#0" expanded="true" />
+            <element signature="e#489#497#0" expanded="true" />
+            <element signature="e#973#981#0" expanded="true" />
+            <element signature="e#1374#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/VectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0">
+        <state line="6" column="53" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#212#220#0" expanded="true" />
             <element signature="e#1062#1071#0" expanded="true" />
             <element signature="e#1128#1137#0" expanded="true" />
@@ -473,14 +543,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vector.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="984" selection-end="984" vertical-scroll-proportion="0.029411765">
+        <state line="13" column="28" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="600" column="0" selection-start="24566" selection-end="24566" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/testng-6.8.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.28846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="26" selection-start="1553" selection-end="1553" vertical-scroll-proportion="1.2352941">
           <folding>
-            <element signature="e#204#212#0" expanded="true" />
-            <element signature="e#489#497#0" expanded="true" />
-            <element signature="e#973#981#0" expanded="true" />
-            <element signature="e#1374#1382#0" expanded="true" />
+            <element signature="e#492#501#0" expanded="true" />
           </folding>
         </state>
       </provider>
