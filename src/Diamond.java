@@ -1,70 +1,77 @@
 public class Diamond {
 
 
-   String shape = new String();
-
     public String triangleBuilder(int size) {
-        shape = "";
+        String shape = "";
         if (error(size)) {
             return "Must enter an odd number";
         } else {
-          buildTopShape(size);
+          shape += buildTopShape(size);
         return shape;
         }
     }
 
     public String diamondBuilder(int size) {
-        shape = "";
+        String shape = "";
         int totalSize = (size + 1) / 2;
         if (error(size)) {
             return "Must enter an odd number";
         } else {
-            buildTopShape(totalSize);
-            buildBottomShape(totalSize);
+            shape += buildTopShape(totalSize);
+            shape += buildBottomShape(totalSize);
         }
         return shape;
     }
 
     public String diamondName(int size, String name){
-        shape = "";
+        String shape = "";
         int totalSize = (size + 1) /2;
         if(error(size)) {
             return "Must enter an odd number";
         } else {
-            buildTopShape(totalSize - 1);
+            shape += " " + buildTopShape(totalSize -1);
             shape += name + "\n";
-            buildBottomShape(totalSize);
+            shape += buildBottomShape(totalSize);
         }
+
         return shape;
     }
 
 
-    private void buildTopShape(int lines) {
+    private String buildTopShape(int lines) {
+        String shape = "";
         for (int i = 1; i <= lines; i++) {
-            getSpaces(i, lines);
-            getAsterisks(i);
+            shape += getSpaces(i, lines);
+            shape += getAsterisks(i);
         }
+        return shape;
     }
 
-    private void buildBottomShape(int lines){
-        for (int i = (lines -1); i > 0; i--) {
-            getSpaces(i, lines);
-            getAsterisks(i);
+    private String buildBottomShape(int lines){
+        String shape = "";
+        for (int i = (lines - 1); i > 0; i--) {
+            shape += getSpaces(i, lines);
+            shape += getAsterisks(i);
         }
+        return shape;
     }
 
-    private void getSpaces(int lineNumber, int totalLines) {
+    private String getSpaces(int lineNumber, int totalLines) {
+        String shape = "";
         for (int i = lineNumber; i < totalLines; i++) {
            shape += " ";
         }
+        return shape;
     }
 
-    private void getAsterisks(int lineNumber) {
+    private String getAsterisks(int lineNumber) {
+        String shape = "";
         lineNumber *= 2;
         for (int i = 1; i < lineNumber; i++) {
             shape += "*";
         }
         shape += "\n";
+        return shape;
     }
 
     private boolean error(int size) {
