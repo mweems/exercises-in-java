@@ -11,10 +11,10 @@ public class DiamondTest {
         assertEquals("*\n", diamond.triangleBuilder(1));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void TriangleShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber() {
         Diamond diamond = new Diamond();
-        assertEquals("Must enter an odd number", diamond.triangleBuilder(2));
+        diamond.triangleBuilder(2);
     }
 
     @Test
@@ -29,10 +29,10 @@ public class DiamondTest {
         assertEquals("*\n", diamond.diamondBuilder(1));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void DiamondShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber() {
         Diamond diamond = new Diamond();
-        assertEquals("Must enter an odd number", diamond.diamondBuilder(2));
+        diamond.diamondBuilder(2);
     }
 
     @Test
