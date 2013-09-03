@@ -4,7 +4,6 @@
     <list default="true" id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diamond.java" afterPath="$PROJECT_DIR$/src/Diamond.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DiamondTest.java" afterPath="$PROJECT_DIR$/src/DiamondTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,8 +15,8 @@
     <file path="/Dummy.txt" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378211847998" ignored="false" />
     <file path="/ArrayTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377876017769" ignored="false" />
     <file path="/Array.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377878479156" ignored="false" />
-    <file path="/DiamondTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378229586740" ignored="false" />
-    <file path="/Diamond.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378233060710" ignored="false" />
+    <file path="/DiamondTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378233355898" ignored="false" />
+    <file path="/Diamond.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378233693399" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <file leaf-file-name="Diamond.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="638" selection-end="638" vertical-scroll-proportion="0.704501">
+            <state line="14" column="31" selection-start="281" selection-end="281" vertical-scroll-proportion="0.41095892">
               <folding />
             </state>
           </provider>
@@ -90,7 +89,7 @@
       <file leaf-file-name="DiamondTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+            <state line="54" column="25" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -660,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+        <state line="54" column="25" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -669,7 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="638" selection-end="638" vertical-scroll-proportion="0.704501">
+        <state line="14" column="31" selection-start="281" selection-end="281" vertical-scroll-proportion="0.41095892">
           <folding />
         </state>
       </provider>

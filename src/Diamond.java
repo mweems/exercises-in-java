@@ -1,8 +1,10 @@
 public class Diamond {
 
-    String shape = "";
+
+   String shape = new String();
 
     public String triangleBuilder(int size) {
+        shape = "";
         if (error(size)) {
             return "Must enter an odd number";
         } else {
@@ -12,6 +14,7 @@ public class Diamond {
     }
 
     public String diamondBuilder(int size) {
+        shape = "";
         int totalSize = (size + 1) / 2;
         if (error(size)) {
             return "Must enter an odd number";
@@ -26,6 +29,13 @@ public class Diamond {
     }
 
 
+    private void buildShape(int lines) {
+        for (int i = 1; i <= lines; i++) {
+            getSpaces(i, lines);
+            getAsterisks(i);
+        }
+    }
+
     private void getSpaces(int lineNumber, int totalLines) {
         for (int i = lineNumber; i < totalLines; i++) {
            shape += " ";
@@ -38,13 +48,6 @@ public class Diamond {
             shape += "*";
         }
         shape += "\n";
-    }
-
-    private void buildShape(int lines) {
-        for (int i = 1; i <= lines; i++) {
-            getSpaces(i, lines);
-            getAsterisks(i);
-        }
     }
 
     private boolean error(int size) {
