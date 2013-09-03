@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DiamondTest.java" afterPath="$PROJECT_DIR$/src/DiamondTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diamond.java" afterPath="$PROJECT_DIR$/src/Diamond.java" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +15,7 @@
     <file path="/ArrayTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377876017769" ignored="false" />
     <file path="/Array.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377878479156" ignored="false" />
     <file path="/DiamondTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378236083365" ignored="false" />
-    <file path="/Diamond.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378235114686" ignored="false" />
+    <file path="/Diamond.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378236851231" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <file leaf-file-name="Diamond.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="33" selection-start="971" selection-end="971" vertical-scroll-proportion="-0.37964776">
+            <state line="28" column="17" selection-start="670" selection-end="670" vertical-scroll-proportion="0.82191783">
               <folding />
             </state>
           </provider>
@@ -668,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="971" selection-end="971" vertical-scroll-proportion="-0.37964776">
+        <state line="28" column="17" selection-start="670" selection-end="670" vertical-scroll-proportion="0.82191783">
           <folding />
         </state>
       </provider>

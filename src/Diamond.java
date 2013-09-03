@@ -8,7 +8,7 @@ public class Diamond {
         if (error(size)) {
             return "Must enter an odd number";
         } else {
-          buildShape(size);
+          buildTopShape(size);
         return shape;
         }
     }
@@ -19,34 +19,35 @@ public class Diamond {
         if (error(size)) {
             return "Must enter an odd number";
         } else {
-            buildShape(totalSize);
-            for (int i = (totalSize - 1); i > 0; i--) {
-                getSpaces(i, totalSize);
-                getAsterisks(i);
-            }
+            buildTopShape(totalSize);
+            buildBottomShape(totalSize);
         }
         return shape;
     }
 
     public String diamondName(int size, String name){
-        shape = " ";
+        shape = "";
         int totalSize = (size + 1) /2;
         if(error(size)) {
             return "Must enter an odd number";
         } else {
-            buildShape(totalSize -1);
+            buildTopShape(totalSize - 1);
             shape += name + "\n";
-            for (int i = (totalSize -1); i > 0; i--) {
-                getSpaces(i, totalSize);
-                getAsterisks(i);
-            }
+            buildBottomShape(totalSize);
         }
         return shape;
     }
 
 
-    private void buildShape(int lines) {
+    private void buildTopShape(int lines) {
         for (int i = 1; i <= lines; i++) {
+            getSpaces(i, lines);
+            getAsterisks(i);
+        }
+    }
+
+    private void buildBottomShape(int lines){
+        for (int i = (lines -1); i > 0; i--) {
             getSpaces(i, lines);
             getAsterisks(i);
         }
