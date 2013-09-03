@@ -29,7 +29,7 @@ public class Diamond {
     }
 
     public String diamondName(int size, String name){
-        shape = "";
+        shape = " ";
         int totalSize = (size + 1) /2;
         if(error(size)) {
             return "Must enter an odd number";

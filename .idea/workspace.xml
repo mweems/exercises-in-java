@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diamond.java" afterPath="$PROJECT_DIR$/src/Diamond.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DiamondTest.java" afterPath="$PROJECT_DIR$/src/DiamondTest.java" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,19 +76,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Diamond.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="69" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+            <state line="31" column="18" selection-start="768" selection-end="768" vertical-scroll-proportion="0.2074364">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiamondTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DiamondTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="61" selection-start="1967" selection-end="1967" vertical-scroll-proportion="1.2504892">
+            <state line="59" column="61" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/VectorTest.java" />
         <option value="$PROJECT_DIR$/src/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/Array.java" />
-        <option value="$PROJECT_DIR$/src/Diamond.java" />
         <option value="$PROJECT_DIR$/src/DiamondTest.java" />
+        <option value="$PROJECT_DIR$/src/Diamond.java" />
       </list>
     </option>
   </component>
@@ -469,7 +468,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -657,19 +656,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="69" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="61" selection-start="1967" selection-end="1967" vertical-scroll-proportion="1.2504892">
+        <state line="59" column="61" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="18" selection-start="768" selection-end="768" vertical-scroll-proportion="0.2074364">
+          <folding />
         </state>
       </provider>
     </entry>
