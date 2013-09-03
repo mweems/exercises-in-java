@@ -53,4 +53,10 @@ public class DiamondTest {
         assertEquals("*\n", diamond.triangleBuilder(1));
         assertEquals("*\n", diamond.diamondBuilder(1));
     }
+
+    @Test
+    public void DiamondNameShouldReturnAstrisksInACenteredDiamond3RowsHighWithPaulaInTheMiddleRow() {
+        Diamond diamond = new Diamond();
+        assertEquals(" *\nPaula\n *\n", diamond.diamondName(3,"Paula"));
+    }
 }
