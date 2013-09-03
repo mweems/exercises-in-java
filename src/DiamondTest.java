@@ -46,4 +46,11 @@ public class DiamondTest {
         Diamond diamond = new Diamond();
         assertEquals("  *\n ***\n*****\n ***\n  *\n", diamond.diamond(5));
     }
+
+    @Test
+    public void DiamondShouldBeAbleToBuildTwoShapes() {
+        Diamond diamond = new Diamond();
+        assertEquals("*\n", diamond.triangle(1));
+        assertEquals("*\n", diamond.diamond(1));
+    }
 }
