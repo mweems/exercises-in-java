@@ -4,11 +4,11 @@ public class PotterKata {
 
     public String purchase(String... books){
         verifyBooks(books);
-        int sortedBooks = checkDups(books);
-        return "Price $" + sortedBooks;
+        return "Price $" + price(books);
     }
 
-    private int checkDups(String [] initialOrder){
+    private int price(String[] initialOrder){
+        // would like to refactor this out into it's own method
         ArrayList<String> nonDuplicates = new ArrayList<String>();
         ArrayList<String> duplicates = new ArrayList<String>();
         for (String book : initialOrder){
@@ -18,14 +18,14 @@ public class PotterKata {
                 nonDuplicates.add(book);
             }
         }
-        int  discountPrice = getPrice(nonDuplicates);
+        int  discountPrice = discount(nonDuplicates);
         int nonDiscountPrice =  (duplicates.size() * 8);
         int price = discountPrice + nonDiscountPrice;
 
         return price;
     }
 
-    private int getPrice(ArrayList<String> bookList){
+    private int discount(ArrayList<String> bookList){
         double discount = getDiscount(bookList);
         double quantity = bookList.size();
         int price = addPrice(quantity, discount);
@@ -36,8 +36,7 @@ public class PotterKata {
         double initialPrice = quantity * 8;
         double totalDiscount = initialPrice * discount;
         double totalPrice = initialPrice - totalDiscount;
-        int price;
-        price = ((int) totalPrice);
+        int price = ((int) totalPrice);
         return price;
     }
 
@@ -58,7 +57,6 @@ public class PotterKata {
                 break;
             default: discount = 0;
                 break;
-
         }
         return discount;
     }

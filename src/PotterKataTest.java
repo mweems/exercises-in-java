@@ -39,4 +39,16 @@ public class PotterKataTest {
         PotterKata bookStore = new PotterKata();
         bookStore.purchase("Book 1", "Book 2", "Ender's Game", "Book 3");
     }
+
+    @Test
+    public void priceShouldBeAccurateWithFiveOfTheSameBook() {
+        PotterKata bookStore = new PotterKata();
+        assertEquals("Price $40", bookStore.purchase("Book 1", "Book 1", "Book 1", "Book 1", "Book 1"));
+    }
+
+    @Test
+    public void priceShouldBeAccurateWithMultipleNonDuplicateBooks() {
+        PotterKata bookStore = new PotterKata();
+        assertEquals("Price $52", bookStore.purchase("Book 1", "Book 2", "Book 3", "Book 4", "Book 5", "Book 6", "Book 7", "Book 1", "Book 2"));
+    }
 }
