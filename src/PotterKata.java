@@ -3,12 +3,8 @@ import java.util.ArrayList;
 public class PotterKata {
 
     public String purchase(String... books){
-        int sortedBooks;
-        if (books.length > 1){
-            sortedBooks = checkDups(books);
-        } else {
-            return "Price $8";
-        }
+        verifyBooks(books);
+        int sortedBooks = checkDups(books);
         return "Price $" + sortedBooks;
     }
 
@@ -16,14 +12,14 @@ public class PotterKata {
         ArrayList<String> nonDuplicates = new ArrayList<String>();
         ArrayList<String> duplicates = new ArrayList<String>();
         for (String book : initialOrder){
-            if (!nonDuplicates.contains(book)){
-                nonDuplicates.add(book);
-            } else {
+            if (nonDuplicates.contains(book)){
                 duplicates.add(book);
+            } else {
+                nonDuplicates.add(book);
             }
         }
         int  discountPrice = getPrice(nonDuplicates);
-        int nonDiscountPrice =  ((int) duplicates.size() * 8);
+        int nonDiscountPrice =  (duplicates.size() * 8);
         int price = discountPrice + nonDiscountPrice;
 
         return price;
@@ -37,8 +33,9 @@ public class PotterKata {
     }
 
     private int addPrice(double quantity, double discount){
-        double totalDiscount = quantity * discount;
-        double totalPrice = (quantity * 8.00) - totalDiscount;
+        double initialPrice = quantity * 8;
+        double totalDiscount = initialPrice * discount;
+        double totalPrice = initialPrice - totalDiscount;
         int price;
         price = ((int) totalPrice);
         return price;
@@ -64,5 +61,31 @@ public class PotterKata {
 
         }
         return discount;
+    }
+
+    private void verifyBooks(String [] bookList){
+        String [] books = getBookList();
+        for(String book : bookList){
+           boolean isIncluded = false;
+           for(int i = 0; i < books.length; i++){
+               if(book.matches(books[i])){
+                  isIncluded = true;
+                   break;
+               }
+           }
+        if(isIncluded == false){
+            throw new IllegalArgumentException("One or more books is/are unavailable");
+        }
+       }
+    }
+
+    private String [] getBookList(){
+        int count = 0;
+        String [] purchasableBooks = new String[7];
+        while(count <= 6){
+            purchasableBooks[count] = "Book " + (count + 1);
+            count ++;
+        }
+        return purchasableBooks;
     }
 }
