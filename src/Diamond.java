@@ -35,9 +35,8 @@ public class Diamond {
 
     private String buildTopShape(int lines) {
         String shape = "";
-        for (int i = 1; i <= lines; i++) {
+        for (int i = 1; i <= lines; i++)
             shape += getSpaces(i, lines) + getAsterisks(i);
-        }
         return shape;
     }
 
@@ -50,18 +49,16 @@ public class Diamond {
 
     private String getSpaces(int lineNumber, int totalLines) {
         String shape = "";
-        for (int i = lineNumber; i < totalLines; i++) {
+        for (int i = lineNumber; i < totalLines; i++)
            shape += " ";
-        }
         return shape;
     }
 
     private String getAsterisks(int lineNumber) {
         String shape = "";
         lineNumber *= 2;
-        for (int i = 1; i < lineNumber; i++) {
+        for (int i = 1; i < lineNumber; i++)
             shape += "*";
-        }
         shape += "\n";
         return shape;
     }

@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Collections.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CollectionsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PotterKata.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PotterKataTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Collections.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CollectionsTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diamond.java" afterPath="$PROJECT_DIR$/src/Diamond.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DiamondTest.java" afterPath="$PROJECT_DIR$/src/DiamondTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$USER_HOME$/IdeaProjects/continued_learning/.idea/workspace.xml" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377866726072" ignored="false" />
     <file path="/2dVector" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377866970287" ignored="false" />
-    <file path="/fragment.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378243579120" ignored="false" />
+    <file path="/fragment.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378298794351" ignored="false" />
     <file path="/VectorTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377872568391" ignored="false" />
     <file path="/Vector.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377873494474" ignored="false" />
     <file path="/Dummy.txt" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378211847998" ignored="false" />
     <file path="/ArrayTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377876017769" ignored="false" />
     <file path="/Array.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1377878479156" ignored="false" />
     <file path="/DiamondTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378249359109" ignored="false" />
-    <file path="/Diamond.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378249848072" ignored="false" />
+    <file path="/Diamond.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378250597352" ignored="false" />
     <file path="/CollectionsTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378243708542" ignored="false" />
+    <file path="/PotterKataTest.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378301170494" ignored="false" />
+    <file path="/PotterKata.java" changelist="68ed0e1a-1f5f-40f9-a10d-05e2ff372356" time="1378308102818" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,19 +84,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Diamond.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Diamond.java">
+      <file leaf-file-name="PotterKata.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PotterKata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="-0.32093933">
-              <folding />
+            <state line="47" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="1.3796477">
+              <folding>
+                <element signature="e#412#420#0" expanded="true" />
+                <element signature="e#476#484#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiamondTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DiamondTest.java">
+      <file leaf-file-name="PotterKataTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PotterKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="4" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/CollectionsTest.java" />
         <option value="$PROJECT_DIR$/src/DiamondTest.java" />
         <option value="$PROJECT_DIR$/src/Diamond.java" />
+        <option value="$PROJECT_DIR$/src/PotterKataTest.java" />
+        <option value="$PROJECT_DIR$/src/PotterKata.java" />
       </list>
     </option>
   </component>
@@ -225,71 +233,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DiamondTest">
-    <configuration default="false" name="ArrayTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="exercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54219" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DiamondTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="exercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PotterKataTest">
     <configuration default="false" name="DiamondTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -359,6 +303,63 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PotterKataTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="exercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PotterKataTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PotterKataTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="exercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PotterKataTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -451,19 +452,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.ArrayTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.DiamondTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.TriangleShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest.DiamondShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.TriangleShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.DiamondShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PotterKataTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PotterKataTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.DiamondShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.TriangleShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.DiamondTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.ArrayTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PotterKataTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PotterKataTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.DiamondShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest.TriangleShouldReturnErrorMessageIfNumberGivenIsAnEvenNumber" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -588,47 +589,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DiamondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#204#212#0" expanded="false" />
-            <element signature="e#489#497#0" expanded="false" />
-            <element signature="e#973#981#0" expanded="false" />
-            <element signature="e#1374#1382#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="600" column="0" selection-start="24566" selection-end="24566" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/testng-6.8.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.28846154" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../study/java/HeadFirstJava/Abcd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="81" selection-start="348" selection-end="348" vertical-scroll-proportion="0.52837574" />
@@ -664,20 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/src.zip!/java/lang/IllegalArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="11" selection-start="839" selection-end="839" vertical-scroll-proportion="0.8235294">
@@ -685,19 +631,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="50" selection-start="754" selection-end="754" vertical-scroll-proportion="-0.46771038">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="0.704501">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Diamond.java">
+    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="-0.32093933">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="-5.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/junit-4.11.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="490" selection-end="490" vertical-scroll-proportion="-6.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/junit-4.11.jar!/org/junit/runner/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="20" selection-start="1834" selection-end="1834" vertical-scroll-proportion="-12.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/junit-4.11.jar!/org/junit/runner/notification/RunNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/groovy/2.1.5/libexec/lib/junit-4.11.jar!/org/junit/runner/notification/Failure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="690" selection-end="690" vertical-scroll-proportion="0.54545456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PotterKataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PotterKata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="1.3796477">
+          <folding>
+            <element signature="e#412#420#0" expanded="true" />
+            <element signature="e#476#484#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
