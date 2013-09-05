@@ -1,3 +1,6 @@
+package test;
+
+import main.StringCalculator;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
@@ -19,7 +22,7 @@ public class StringCalculatorTest {
     @Test
     public void shouldReturnThesumOfIntegersWhenPassedMoreThanOne() {
         StringCalculator calculator = new StringCalculator();
-        assertEquals("3", calculator.add("1,2"));
+        assertEquals("75", calculator.add("50,25"));
     }
 
     @Test
@@ -27,6 +30,5 @@ public class StringCalculatorTest {
         StringCalculator calculator = new StringCalculator();
         assertEquals("3", calculator.add("1\n2"));
     }
-
 
 }

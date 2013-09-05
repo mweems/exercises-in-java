@@ -1,31 +1,37 @@
+package main;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class PotterKata {
 
-    public String purchase(String... books){
+    public String purchase(Book... books){
         verifyBooks(books);
-        return "Price $" + price(books);
+        return "Price $" + priceOfAllBooks(books);
     }
 
-    private int price(String[] initialOrder){
-        // would like to refactor this out into it's own method
-        ArrayList<String> nonDuplicates = new ArrayList<String>();
-        ArrayList<String> duplicates = new ArrayList<String>();
-        for (String book : initialOrder){
+    private int priceOfAllBooks(Book[] initialOrder){
+        List<Book> nonDuplicates = new ArrayList<Book>();
+        List<Book> duplicates = new ArrayList<Book>();
+        for (Book book : initialOrder){
             if (nonDuplicates.contains(book)){
                 duplicates.add(book);
             } else {
                 nonDuplicates.add(book);
             }
         }
-        int  discountPrice = discount(nonDuplicates);
-        int nonDiscountPrice =  (duplicates.size() * 8);
-        int price = discountPrice + nonDiscountPrice;
+        int price = price(nonDuplicates, duplicates);
 
         return price;
     }
 
-    private int discount(ArrayList<String> bookList){
+    private int price(List<Book> nonDuplicates, List<Book> duplicates) {
+        int  discountPrice = discount(nonDuplicates);
+        int nonDiscountPrice =  (duplicates.size() * 8);
+        return discountPrice + nonDiscountPrice;
+    }
+
+    private int discount(List<Book> bookList){
         double discount = getDiscount(bookList);
         double quantity = bookList.size();
         int price = addPrice(quantity, discount);
@@ -40,7 +46,7 @@ public class PotterKata {
         return price;
     }
 
-    private Double getDiscount(ArrayList<String> bookList){
+    private Double getDiscount(List<Book> bookList){
         double discount;
         switch (bookList.size()) {
             case 2: discount = .05;
@@ -61,12 +67,12 @@ public class PotterKata {
         return discount;
     }
 
-    private void verifyBooks(String [] bookList){
-        String [] books = getBookList();
-        for(String book : bookList){
+    private void verifyBooks(Book [] bookList){
+        Book [] books = getBookList();
+        for(Book book : bookList){
            boolean isIncluded = false;
            for(int i = 0; i < books.length; i++){
-               if(book.matches(books[i])){
+               if(book.equals(books[i])){
                   isIncluded = true;
                    break;
                }
@@ -77,11 +83,11 @@ public class PotterKata {
        }
     }
 
-    private String [] getBookList(){
+    private Book [] getBookList(){
         int count = 0;
-        String [] purchasableBooks = new String[7];
+        Book [] purchasableBooks = new Book[7];
         while(count <= 6){
-            purchasableBooks[count] = "Book " + (count + 1);
+            purchasableBooks[count] = new Book("Book " + (count + 1));
             count ++;
         }
         return purchasableBooks;

@@ -1,3 +1,6 @@
+package test;
+
+import main.Vector;
 import org.junit.Test;
 
 import java.util.ArrayList;
